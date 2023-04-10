@@ -1,15 +1,6 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
-
 export function App() {
   return (
-    <>
-      <NxWelcome title="name-badges" />
-
-      <div />
-    </>
+    <h1 className="text-3xl font-bold underline bg-red-600">Hello world!</h1>
   );
 }
 
