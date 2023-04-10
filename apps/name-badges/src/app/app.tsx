@@ -1,7 +1,8 @@
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
+import Application from 'libs/name-badges-component/src/lib/application/application';
+
 export function App() {
-  return (
-    <h1 className="text-3xl font-bold underline bg-red-600">Hello world!</h1>
-  );
+  return <Application />;
 }
 
 export default App;
