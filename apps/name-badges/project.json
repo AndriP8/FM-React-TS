@@ -54,10 +54,8 @@
     },
     "test": {
       "executor": "@nrwl/vite:test",
-      "outputs": ["coverage/apps/name-badges"],
       "options": {
-        "passWithNoTests": true,
-        "reportsDirectory": "../../coverage/apps/name-badges"
+        "passWithNoTests": true
       }
     },
     "lint": {
