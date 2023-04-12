@@ -1,6 +1,5 @@
 import React from 'react';
 
-/* eslint-disable-next-line */
 export interface ControlsProps {
   name: string;
   onChange: (v: React.ChangeEvent<HTMLInputElement>) => void;
