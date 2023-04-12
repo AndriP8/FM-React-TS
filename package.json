@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start:name-badges": "nx serve name-badges",
-    "start:typing-children": "nx serve typing-children"
+    "start:typing-children": "nx serve typing-children",
+    "start:accident-counter": "nx serve accident-counter"
   },
   "private": true,
   "devDependencies": {
