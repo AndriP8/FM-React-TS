@@ -6,7 +6,8 @@
     "start:name-badges": "nx serve name-badges",
     "start:typing-children": "nx serve typing-children",
     "start:accident-counter": "nx serve accident-counter",
-    "start:quotes": "nx serve quotes"
+    "start:quotes": "nx serve quotes",
+    "start:colors": "nx serve colors"
   },
   "private": true,
   "devDependencies": {
@@ -52,6 +53,12 @@
     "vitest": "^0.25.8"
   },
   "dependencies": {
+    "@types/color-convert": "^2.0.0",
+    "@types/lodash.uniqueid": "^4.0.7",
+    "clsx": "^1.2.1",
+    "color-convert": "^2.0.1",
+    "color-name-list": "^10.7.0",
+    "lodash.uniqueid": "^4.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
